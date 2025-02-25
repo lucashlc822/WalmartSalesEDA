@@ -48,7 +48,7 @@ Identify distinct customer segments, analyze purchasing trends, and evaluate the
 ***Data Wrangling*** - This is performed in the preliminary stages of the analysis, where the data is inspected to ensure any **NULL** or missing values are detected, then data replacement methods are used to replace them. Extreme values and outliers are also removed/adjusted to prevent the analysis from being skewed.
 1. Database creation
 2. Table creation and ETL of data from source files.
-3. Filter and remove **NULL** values (column settings set for NOT NULL)
+3. Filter and remove **NULL** values (column settings set for **NOT NULL**).
 
 ***Feature Engineering*** - Generating new calculation columns from existing source data. The following columns were created:
 1. Added a new varchar column `time_of_day` to categorize the sales based on Morning, Afternoon, and Evening periods.
@@ -56,9 +56,44 @@ Identify distinct customer segments, analyze purchasing trends, and evaluate the
 3. Added a new varchar column `month_name` to categorize the month in which each sale was made, displayed in long format (January, February, March, etc.)
 
 ***Data Analysis*** - Finding relationships between variables in the data. Finding key performance indicators based on different categories. Identifying bright spots concerning sales and profitability.
-1. Refer to the [Business Questions](##business-questions)
+1. Refer to the [Business Questions](##business-questions) section to view the focus points for exploration of the data.
+2. Please go to the Queries page to view the results of the EDA.
+
+***Conclusion*** - Overview of the results and providing strategic recommendations.
 
 ## Business Questions
+### Introductory:
+1. How many unique cities does the data have?
+2. In which city is each branch?
+### Product Analysis:
+1. How many unique product lines does the data have?
+2. What is the most common payment method?
+3. What is the most selling product line?
+4. What is the total revenue by month?
+5. What month had the largest COGS?
+6. What product line had the largest revenue?
+7. What is the city with the largest revenue?
+8. What product line had the largest VAT?
+9. Fetch each product line and add a column to those product lines showing "Good", and "Bad". A product is considered "Good" if its total sales are greater than the average sales.
+10. Which branch sold more products than the average product sold?
+11. What is the most common product line by gender?
+12. What is the average rating of each product line?
+### Sales Analysis:
+1. What is the total number of sales made at each time of the day per weekday?
+2. Which of the customer types brings the most revenue?
+3. Which city has the largest tax percentage/ VAT (Value Added Tax)?
+4. Which customer type pays the most in VAT?
+### Customer Analysis:
+1. How many unique customer types does the data have?
+2. How many unique payment methods does the data have?
+3. What is the most common customer type?
+4. Which customer type buys the most?
+5. What is the gender of most of the customers?
+6. What is the gender distribution per branch?
+7. Which time of the day do customers give the most ratings?
+8. Which time of the day do customers give the most ratings per branch?
+9. Which day of the week has the best average ratings?
+10. Which day of the week has the best average ratings per branch?
 
 
 

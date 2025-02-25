@@ -57,7 +57,7 @@ Identify distinct customer segments, analyze purchasing trends, and evaluate the
 
 ***Data Analysis*** - Finding relationships between variables in the data. Finding key performance indicators based on different categories. Identifying bright spots concerning sales and profitability.
 1. Refer to the [Business Questions](##business-questions) section to view the focus points for exploration of the data.
-2. Please go to the Queries page to view the results of the EDA.
+2. Please go to the [SQL Queries](project_queries.sql) to view the results of the EDA.
 
 ***Conclusion*** - Overview of the results and providing strategic recommendations.
 

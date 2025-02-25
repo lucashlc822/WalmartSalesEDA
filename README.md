@@ -44,6 +44,22 @@ Discover sales trends and relationships to measure the effectiveness of every ap
 
 Identify distinct customer segments, analyze purchasing trends, and evaluate the profitability of each segment.
 
+## Procedure
+***Data Wrangling*** - This is performed in the preliminary stages of the analysis, where the data is inspected to ensure any **NULL** or missing values are detected, then data replacement methods are used to replace them. Extreme values and outliers are also removed/adjusted to prevent the analysis from being skewed.
+1. Database creation
+2. Table creation and ETL of data from source files.
+3. Filter and remove **NULL** values (column settings set for NOT NULL)
+
+***Feature Engineering*** - Generating new calculation columns from existing source data. The following columns were created:
+1. Added a new varchar column `time_of_day` to categorize the sales based on Morning, Afternoon, and Evening periods.
+2. Added a new varchar column `day_name` to categorize the day of the week for each sale made (Monday, Tuesday, etc.).
+3. Added a new varchar column `month_name` to categorize the month in which each sale was made, displayed in long format (January, February, March, etc.)
+
+***Data Analysis*** - Finding relationships between variables in the data. Finding key performance indicators based on different categories. Identifying bright spots concerning sales and profitability.
+1. Refer to the [Business Questions](##business-questions)
+
+## Business Questions
+
 
 
 

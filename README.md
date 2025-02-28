@@ -7,7 +7,7 @@ This project explores sales data retrieved by Walmart and pinpoints aspects of g
 The objective of this project is to gain a deep understanding of Walmart's sales data by identifying patterns, trends, outliers, and relationships between different variables. This **Exploratory Data Analysis** will provide a quantitative summary of the data and helps to ensure the results produced are valid and applicable to any desired business outcomes and goals.
 
 ## About the Data
-As mentioned above, the Walmart sales data was retrieved from a dataset from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). The dataset contains sales transactions from three different Walmart branches located in Mandalay, Yangon, and Naypyitaw. There are 17 columns and around 1000 rows in total. Refer to ***Table 1*** below for further details of the data in each column.
+As mentioned above, the Walmart sales data was retrieved from a dataset from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). The dataset contains 2019 first-quarter sales transactions from three different Walmart branches located in Mandalay, Yangon, and Naypyitaw. There are 17 columns and around 1000 rows in total. Refer to ***Table 1*** below for further details of the data in each column.
 
 ### *Table 1* - Column Data Types
 
@@ -103,6 +103,14 @@ The calculations below were performed throughout the analysis:
 - Gross Profit $= Gross Sales - COGS$
 - Gross Margin% $= GrossProfit / TotalRevenue * 100$
 
+## Discoveries
+
+***Products:***
+1. The most common payment method for products was cash.
+2. Food and Beverages was the top-selling product line among the three branches. It has the largest revenue among all products.
+3. The first quarter saw the highest sales in January and the lowest sales in February. Subsequently, January accumulated the highest COGS.
+4. Fashion Accessories and Electronic Accessories performed poorly, as their sales came in below the average out of all products.
+5. Branches A and C sold more products than Branch B.
 
 
 

@@ -95,6 +95,19 @@ Identify distinct customer segments, analyze purchasing trends, and evaluate the
 9. Which day of the week has the best average ratings?
 10. Which day of the week has the best average ratings per branch?
 
+## Calculations
+The calculations below were performed throughout the analysis:
+- Cost of Goods Sold, $COGS = unitPrice*quantity$
+- Value Added Tax, $VAT = 0.05*COGS$
+- Gross Sales $= VAT + COGS$
+- Gross Profit $= Gross Sales - COGS$
+- Gross Margin% $= GrossProfit / TotalRevenue * 100$
+
+
+
+
+
+
 
 
 

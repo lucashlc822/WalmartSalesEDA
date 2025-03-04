@@ -109,8 +109,29 @@ The calculations below were performed throughout the analysis:
 1. The most common payment method for products was cash.
 2. Food and Beverages was the top-selling product line among the three branches. It has the largest revenue among all products.
 3. The first quarter saw the highest sales in January and the lowest sales in February. Subsequently, January accumulated the highest COGS.
-4. Fashion Accessories and Electronic Accessories performed poorly, as their sales came in below the average out of all products.
+4. Fashion Accessories and Electronic Accessories performed poorly, as their sales were below the average of all products.
 5. Branches A and C sold more products than Branch B.
+
+***Sales***
+1. The highest number of sales were made on a Saturday evening.
+2. Walmart members bring in the most revenue from all other member types. They also pay the highest amount of VAT.
+3. All sales were made using one of three payment methods: credit card, Ewallet, or cash.
+
+***Customer***
+1. The majority of the customer base is male.
+2. Branch A has the highest percentage of males among the branches while Branch C has the highest percentage of females among the branches.
+3. Customers give better ratings in the afternoon.
+4. Monday received the highest average ratings from customers out of all other days in the week.
+
+## Conclusion
+
+From the discoveries listed above, the following recommendations can be explored to improve the business performance of the three branches:
+1. The Food and Beverages product line is demonstrating strong performance. Further research is recommended to better understand the factors driving positive customer feedback. Branches should analyze these patterns and apply relevant insights to improve the performance of underperforming categories, such as Fashion Accessories and Electronic Accessories.
+2. Look at creating marketing strategies that target males, as they account for a larger majority of sales.
+3. Invest in improving loyalty and incentive programs for Walmart members (exclusive discounts/services, cashback programs, etc). Look to strengthen loyalty by targeting repeat purchases. An introduction of a more premium membership tier can also be explored.
+
+
+
 
 
 
